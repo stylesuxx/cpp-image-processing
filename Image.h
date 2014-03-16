@@ -17,8 +17,11 @@ class Image
 		int getWidth() { return width; };
 		int getHeight() { return height; };
 		int getPixelAmount() { return height * width; };
+
 		Pixel *getPixel(int row, int column);
 		Pixel *getPixel(int value);
+
+		void saveToPPM(const char *filename);
 };
 
 #endif
