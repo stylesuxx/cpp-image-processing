@@ -5,3 +5,4 @@ PHONY: clean
 
 clean:
 	rm test
+	rm *.ppm
