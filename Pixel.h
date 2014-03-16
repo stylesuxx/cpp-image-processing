@@ -16,9 +16,9 @@ class Pixel
 		byte getGreen() { return green; };
 		byte getBlue() { return blue; };
 
-		void setRed(byte value);
-		void setGreen(byte value);
-		void setBlue(byte value);
+		void setRed(byte value) { red = value; }
+		void setGreen(byte value) { green = value; }
+		void setBlue(byte value) { blue = value; }
 };
 
 #endif
