@@ -12,13 +12,13 @@ class Pixel
 	public:
 		Pixel();
 
-		byte getRed() { return red; };
+		byte getRed()   { return red; };
 		byte getGreen() { return green; };
-		byte getBlue() { return blue; };
+		byte getBlue()  { return blue; };
 
-		void setRed(byte value) { red = value; }
+		void setRed(byte value)   { red = value; }
 		void setGreen(byte value) { green = value; }
-		void setBlue(byte value) { blue = value; }
+		void setBlue(byte value)  { blue = value; }
 };
 
 #endif
