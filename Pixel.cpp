@@ -2,7 +2,7 @@
 
 Pixel::Pixel()
 {
-	red = 0x00;
-	green = 0x00;
-	blue = 0x00;
+	red = 0xFF;
+	green = 0xFF;
+	blue = 0xFF;
 }
