@@ -1,7 +1,7 @@
 #ifndef PIXEL_H
 #define PIXEL_H
 
-typedef unsigned char byte;
+#include "typedefs.h"
 
 class Pixel
 {
