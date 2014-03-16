@@ -1,22 +1,24 @@
 #ifndef PIXEL_H
 #define PIXEL_H
 
+typedef unsigned char byte;
+
 class Pixel
 {
 	private:
-		unsigned short int red, green, blue;
-		unsigned short int checkBoundaries(unsigned short int value);
+		byte red, green, blue;
+		byte checkBoundaries(byte value);
 
 	public:
 		Pixel();
 
-		unsigned short int getRed() { return red; };
-		unsigned short int getGreen() { return green; };
-		unsigned short int getBlue() { return blue; };
+		byte getRed() { return red; };
+		byte getGreen() { return green; };
+		byte getBlue() { return blue; };
 
-		void setRed(unsigned short int value);
-		void setGreen(unsigned short int value);
-		void setBlue(unsigned short int value);
+		void setRed(byte value);
+		void setGreen(byte value);
+		void setBlue(byte value);
 };
 
 #endif

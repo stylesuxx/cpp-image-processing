@@ -2,28 +2,28 @@
 
 Pixel::Pixel()
 {
-	red = 0x01;
-	green = 0x02;
-	blue = 0x03;
+	red = 0x00;
+	green = 0x00;
+	blue = 0x00;
 }
 
-void Pixel::setRed(unsigned short int value)
+void Pixel::setRed(byte value)
 {
 	red = checkBoundaries(value);
 }
 
-void Pixel::setGreen(unsigned short int value)
+void Pixel::setGreen(byte value)
 {
 	green = checkBoundaries(value);
 }
 
-void Pixel::setBlue(unsigned short int value)
+void Pixel::setBlue(byte value)
 {
 
 	blue = checkBoundaries(value);
 }
 
-unsigned short int Pixel::checkBoundaries(unsigned short int value)
+byte Pixel::checkBoundaries(byte value)
 {
 	if(value > 0xFF){
 		value = 0XFF;
